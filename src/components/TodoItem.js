@@ -4,7 +4,7 @@ class TodoItem extends React.Component {
 
   render() {
     return (
-      <h1>hi</h1>
+      <li>{this.props.todo.title}</li>
     );
   }
 }
