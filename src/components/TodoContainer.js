@@ -1,10 +1,9 @@
 import React from 'react';
 import TodosList from './TodosList';
 import Header from './Header';
+/* eslint-disable  */
 
-// eslint-disable-next-line react/prefer-stateless-function
 class TodoContainer extends React.Component {
-  // eslint-disable-next-line react/state-in-constructor
   state = {
     todos: [
       {
@@ -25,13 +24,17 @@ class TodoContainer extends React.Component {
     ],
   };
 
+  handleChange = (id) => {
+    console.log("clicked", id);
+  };
+
   render() {
     return (
       <div>
         <Header />
         <TodosList todos={
           this.state.todos// eslint-disable-line
-      } />
+      } handleChangeProps={this.handleChange} />
       </div>
     );
   }
