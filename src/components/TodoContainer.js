@@ -1,4 +1,5 @@
 import React from 'react';
+import TodosList from './TodosList';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class TodoContainer extends React.Component {
@@ -25,11 +26,11 @@ class TodoContainer extends React.Component {
 
   render() {
     return (
-      <ul>
-        {this.state.todos.map((todo) => ( // eslint-disable-line
-          <li>{todo.title}</li> // eslint-disable-line
-        ))}
-      </ul>
+      <div>
+        <TodosList todos={
+          this.state.todos// eslint-disable-line
+      } />
+      </div>
     );
   }
 }
