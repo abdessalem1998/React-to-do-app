@@ -7,6 +7,7 @@ import { v4 as uuidv4 } from "uuid"
 import { Route, Switch } from "react-router-dom"
 import About from "../pages/About"
 import NotMatch from "../pages/NotMatch"
+import Navbar from "./Navbar"
 
 const TodoContainer = () => {
   const [todos, setTodos] = useState(getInitialTodos())
@@ -67,6 +68,8 @@ useEffect(() => {
 }, [todos])
 
 return (
+  <>
+  <Navbar />
   <Switch>
   <Route exact path="/">
     <div className="container">
@@ -89,6 +92,7 @@ return (
     <NotMatch />
   </Route>
   </Switch>
+  </>
 )
 }
 
