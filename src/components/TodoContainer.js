@@ -4,6 +4,7 @@ import Header from "./Header"
 import InputTodo from "./InputTodo"
 import TodosList from "./TodosList"
 import { v4 as uuidv4 } from "uuid"
+import { Route, Switch } from "react-router-dom"
 
 const TodoContainer = () => {
   const [todos, setTodos] = useState(getInitialTodos())
@@ -63,7 +64,8 @@ useEffect(() => {
   localStorage.setItem("todos", temp)
 }, [todos])
 
-  return (
+return (
+  <Route path="/">
     <div className="container">
       <div className="inner">
         <Header />
@@ -76,7 +78,8 @@ useEffect(() => {
         />
       </div>
     </div>
-  )
+  </Route>
+)
 }
 
 export default TodoContainer
