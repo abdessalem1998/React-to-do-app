@@ -14,6 +14,15 @@ const Navbar = () => {
       text: "About",
     },
   ]
-  return <div>Hello from Navbar</div>
+  
+  return (
+    <nav className="navBar">
+      <ul>
+        {links.map(link => {
+          return <li key={link.id}>{link.text}</li>
+        })}
+      </ul>
+    </nav>
+  )
 }
 export default Navbar
