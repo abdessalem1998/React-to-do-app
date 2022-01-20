@@ -1,10 +1,37 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Todo React web app
 
-## Available Scripts
+> This project is a web app created React framework, it is a website to write make your todo list for your tasks. It is a Single Page App (SPA) that allows users to:
+- write todo list for your tasks.
+- save it in local storage of your broswer so you will not lost your data.
+- mobile responsive.
+
+![image](https://user-images.githubusercontent.com/89970442/150334419-271b281d-4d7c-454b-af4b-824c83c8cf46.png)
+
+![image](https://user-images.githubusercontent.com/89970442/150334472-ffd40e62-8ab2-45ce-949a-a0ca0003afb5.png)
+
+![image](https://user-images.githubusercontent.com/89970442/150334575-e303bcd0-decf-400f-a2bf-40894cddb8d7.png)
+
+
+## Built With
+
+- React
+
+## Videos about this project
+
+[soon!]()
+
+## Live Demo
+
+[Check the APP here!](https://abdessalem1998.github.io/React-to-do-app/)
+
+## Getting Started
 
 In the project directory, you can run:
+
+### `npm install`
+install Node Modules.
 
 ### `npm start`
 
@@ -39,32 +66,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GitHub: [@abdessalem1998](https://https://github.com/abdessalem1998.com/rdnrn)
+- Twitter: [HAbdssalem](https://twitter.com/HAbdssalem)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
