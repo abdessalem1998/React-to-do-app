@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Check the APP here!](https://abdessalem1998.github.io/React-to-do-app/about/about-app)
+[Check the APP here!](https://abdessalem1998.github.io/React-to-do-app/)
 
 ## Getting Started
 
